@@ -25,7 +25,8 @@ jobs:
       - name: presentación
         run: |
         
-          echo "   INFORMACIÓN PERSONAL"         
+          echo "   INFORMACIÓN PERSONAL" 
+          echo "Nombres: ${{ env.nombres }}"        
           echo "Apellidos: ${{ env.apellidos }}"
           echo "Edad: ${{ env.edad }}"
         
